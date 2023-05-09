@@ -87,7 +87,7 @@ export default [
             rating: "5.0",
             reviewCount: 28
         },
-        location: "St.Petersburg, FL",
+        location: "St.Pete, FL",
         openSpots: "available",
     },
     {

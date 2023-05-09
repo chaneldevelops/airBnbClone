@@ -1,6 +1,7 @@
 import React from "react"
 
 export default function Card(props) {
+   // BADGE AREA 
     let badgeText
     if (props.openSpots === 0) {
         badgeText = "SOLD OUT"
@@ -8,6 +9,7 @@ export default function Card(props) {
         badgeText = "ONLINE"
     }
     
+    // CARD AREA
     return (
         <div className="card">
             {

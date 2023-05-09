@@ -7,12 +7,35 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+/* NAV SECTION */
 nav {
   height: 70px;
   display: flex;
   padding: 20px 36px;
   box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
 }
+
+nav img {
+  margin-right: auto;
+}
+
+/* SEARCH AREA */
+.search {
+  width: 35%;
+  height: 2.5rem;
+  border: none;
+  border-radius: 1rem;
+  background-color: #F7F7F7;
+  padding-left: 2.5rem;
+  font-size: 1rem;
+  background-image: url('/images/search-icon.png');
+  background-repeat: no-repeat;
+  background-position: -3px center; /* position the icon 10px from the left and center vertically */
+  background-size: contain; /* keeps the icon within the container */
+}
+
+
+
 
 .bold {
   font-weight: bold;
@@ -60,7 +83,7 @@ section {
 
 .card {
   width: 175px;
-  font-size: 12px;
+  font-size: 0.75rem;
   flex: 0 0 auto;         /* ADD */
   display: flex;          /* ADD */
   flex-direction: column; /* ADD */
@@ -84,6 +107,10 @@ section {
   align-items: center;
 }
 
+.card--stats span {
+  font-size: 0.938rem;
+}
+
 .card--stats span, .card--stats img {
   margin-right: 0.2rem;
 }
@@ -94,8 +121,16 @@ section {
 }
 
 /* ADD */
+.card--title {
+  margin-bottom: 0.4rem;
+}
+
 .card--price {
   margin-top: auto;
+}
+
+.card--title, .card--price {
+  font-size: 15px;
 }
 
 .card--badge {
