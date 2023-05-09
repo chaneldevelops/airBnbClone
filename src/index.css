@@ -30,6 +30,7 @@ section {
   padding: 20px;
 }
 
+/* ---- HERO SECTION ----*/
 .hero {
   display: flex;
   flex-direction: column;
@@ -48,6 +49,8 @@ section {
   margin-top: 0;
 }
 
+
+/* ---- CARD SECTION ----*/
 .cards-list {
   display: flex;
   flex-wrap: nowrap;
@@ -81,8 +84,13 @@ section {
   align-items: center;
 }
 
+.card--stats span, .card--stats img {
+  margin-right: 0.2rem;
+}
+
 .card--star {
   height: 14px;
+  margin-top: -0.1rem;
 }
 
 /* ADD */
