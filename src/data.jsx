@@ -1,15 +1,15 @@
 export default [
     {
         id: 1,
-        title: "Life Lessons with Katie Zaferes",
-        description: "I will share with you what I call \"Positively Impactful Moments of Disappointment.\" Throughout my career, many of my highest moments only came after setbacks and losses. But learning from those difficult moments is what gave me the ability to rise above them and reach my goals.",
-        price: 136,
-        coverImg: "katie-zaferes.png",
+        title: "Coldplay Concert",
+        description: "Feel the energy and vibe of Coldplay's music in an unforgettable concert experience.",
+        price: 250,
+        coverImg: "concert.jpg",
         stats: {
-            rating: 5.0,
-            reviewCount: 6
+            rating: "5.0",
+            reviewCount: "1,379"
         },
-        location: "Online",
+        location: "Miami, FL",
         openSpots: 0,
     },
     {
@@ -37,5 +37,18 @@ export default [
         },
         location: "Norway",
         openSpots: 3,
+    },
+    {
+        id: 3,
+        title: "Sky Diving",
+        description: "Soar through the clouds and experience the ultimate adrenaline rush with our expert-led Airbnb skydiving adventure.",
+        price: 179,
+        coverImg: "sky-diving.jpg",
+        stats: {
+            rating: "5.0",
+            reviewCount: 346
+        },
+        location: "Orlando, FL",
+        openSpots: 12,
     }
 ]
