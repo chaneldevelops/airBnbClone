@@ -83,11 +83,11 @@ section {
   display: flex;
   flex-wrap: nowrap;
   gap: 20px;
-  overflow-x: auto;
+  overflow-x: auto; /* gives the scroll bar effect */
 }
 
 .card {
-  width: 175px;
+  width: 180px;
   font-size: 0.75rem;
   flex: 0 0 auto;         /* ADD */
   display: flex;          /* ADD */

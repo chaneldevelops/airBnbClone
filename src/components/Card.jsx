@@ -7,9 +7,14 @@ export default function Card(props) {
         badgeText = "SOLD OUT"
     } else if (props.location === "Online") {
         badgeText = "ONLINE"
+    } else if(props.price === 50) {
+        badgeText = "POPULAR"
     }
     
     // CARD AREA
+    // The {props.coverImg} for example is pulling from the data.jsx file
+    /* Also the reason the spans have 3 properties is because they are nested in other tags/titles 
+    in order to get to the main property for ex reviewCount is nexted in stats */
     return (
         <div className="card">
             {
