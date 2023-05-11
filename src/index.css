@@ -34,7 +34,11 @@ nav img {
   background-size: contain; /* keeps the icon within the container */
 }
 
-
+/* this changes the search border when activated */
+.search:focus {
+  border: 2px solid #FF385C;
+  outline-style: none;
+}
 
 
 .bold {
@@ -62,6 +66,7 @@ section {
 .hero--photo {
   max-width: 80%;
   align-self: center;
+  height: auto;
 }
 
 .hero--header {
