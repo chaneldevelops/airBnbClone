@@ -1,3 +1,4 @@
+// This data is feeding into the Card section
 export default [
     {
         id: 1,
